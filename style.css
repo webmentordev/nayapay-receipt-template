@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+.main-body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+.container{
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    background-color: white;
+}
+.inner{
+    padding: 20px 30px;
+}
+.inner .logo-div{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px #D3D3D3 solid;
+    padding-bottom: 20px;
+}
+.inner .logo-div .logo{
+    margin: auto;
+}
+
+.inner .intro{
+    padding: 30px 0px;
+}
+.inner .intro h2{
+    margin-bottom: 10px;
+}
+.inner .intro p{
+    color: rgb(138, 138, 138);
+}
+
+.recv{
+    display: flex;
+    align-items: center;
+}
+
+.recv span{
+    width: 100%;
+    height: 1px;
+    background-color: #D3D3D3;
+    text-align: end;
+}
+.recv p{
+    margin: 0px 25px;
+}
+
+.funds{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+.funds .fund-info{
+    display: flex;
+    align-items: center;
+}
+
+.funds .fund-info img{
+    border-radius: 50px;
+}
+
+.funds .fund-info .fund-box{
+    padding: 10px;
+}
+
+.funds .fund-info .fund-box h2{
+    margin-bottom: 10px;
+}
+
+.funds strong{
+    font-size: 23px;
+}
+
+
+.remains{
+    border-top: 1px #D3D3D3 solid;
+    border-bottom: 1px #D3D3D3 solid;
+    padding: 15px 0px;
+    margin-bottom: 10px;
+}
+
+.remains ul h3{
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.remains ul li{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0px;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.final{
+    margin: 10px 0px;
+}
